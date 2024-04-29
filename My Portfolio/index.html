@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,   initial-scale=1.0">
+      <title>My portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="mediaqueries.css">
+   </head>
+    <body>
+      <nav id ="dekstop-nav">
+         <div class ="logo">My Portifolio</div>
+         <div>
+            <ul class="nav-links">
+               <li><a href="#about">About</a></li>
+               <li><a href="#experience">Experiance</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+       </div>
+  </nav>
+  <nav id= "humburger-nav">
+     <div class= "humburger-menu">
+     <div class= "humburger-icon" onclick="toggleMenu()">
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <div class="menu-links">
+         <li><a href="#about" onclick="toggleMenu()">About</a></li>
+         <li><a href="#exprience" onclick="toggleMenu()">Exprience</a></li>
+         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>       
+       </div>
+      </div>
+  </nav>  
+
+
+    <section id="profile">
+         <div class="section-pic-container">
+               <img src="./image/FK-pp.jpg" alt="Firaol Keno">
+            </div>
+         <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Firaol Keno</h1>
+            <P class="section-text-p2">Software Engineer</P>
+            <div class="btn-container">
+             <button class="btn btn-color-2" 
+              onclick="window.open('image/My resume.pdf')">Download CV</button>
+              <button class="btn btn-color-1" 
+              onclick="location.href='#contact'">Contact Info</button>  
+          </div>
+         <div id="socials-container">
+           <img src="image/github.png" alt="Github Account" class="icon" onclick="location.href='http://github.com'">
+         </div>
+         </div>
+      </section>
+
+      <section id="about">
+            <p class="section-text-p1">Get to know more</p>
+            <h1 class="section-text-p2">About Me</h1>
+            <div class="section-container">
+                   <div class="section-pic-container">
+                         <img class="about-pic" src="./image/AASTU.jpg"  alt="Institutional Logo">
+                   </div>
+                   <div class="about-details-container">
+                     <div class="about-containers">
+                        <div class="details-container">
+                              <img src="./image/experience.png" alt="Experiance icon" class="icon">
+                              <h3>Exprience</h3>
+                              <p>Junior Developer <br/></p>
+                        </div>
+                        <div class="details-container">
+                           <img src="./image/education.png" alt="Education icon" class="icon">
+                           <h3>Education</h3>
+                           <p>4th Year Software Engineering Student</p>
+                        </div>
+                     </div>
+                   <div class="text-container">
+                      <p>
+                        I am a dynamic and motivated fourth-year Software Engineering student with a passion for technology.
+                          Seeking opportunities to leverage programming skills and expand expertise in web and on a progress
+                           to mobile application development. Eager to contribute to challenging projects, 
+                           enhance technical proficiency, and drive positive change in the software industry.
+                      </p>
+                   </div>
+                  </div>
+            </div>
+            <img class="arrow" src="./image/arrow.png" alt="Arrow Icon" onclick="location.href='./#experience'"/>
+      </section>
+
+      <section id="experience">
+             <p class="section-text-p1">Explore my</p>
+             <h1 class="title">Experience</h1>
+             <div class="exprience-detail-container">
+                 <div class="about-container">
+                  <diV class="details-container">
+                          <h2 class="exprience-subtitle">Frontend Development </h2>
+                          <div class="aricle-container">
+                              <article>
+                                 <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                                 <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                 </div>
+                              </article>
+                              <article>
+                                 <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                                 <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                 </div>
+                              </article>
+                              <article>
+                                 <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                                 <div>
+                                    <h3>JAVASCRIPT</h3>
+                                    <p>Basic</p>
+                                 </div>
+                              </article>
+                              <article>
+                                 <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                                 <div>
+                                    <h3>React Framework</h3>
+                                    <p>Begginer</p>
+                                 </div>
+                              </article>
+                      </div>
+                  </diV>
+                  <diV class="details-container">
+                     <h2 class="exprience-subtitle">Backend Development</h2>
+                     <div class="aricle-container">
+                         <article>
+                            <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                            <div>
+                               <h3>PHP</h3>
+                               <p>Intermediate</p>
+                            </div>
+                         </article>
+                         <article>
+                            <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                            <div>
+                               <h3>Python</h3>
+                               <p>Intermediate</p>
+                            </div>
+                         </article>
+                         <article>
+                            <img  src="./image/experience.png" alt="Exprience Icon" class="icon">
+                            <div>
+                               <h3>MongoDB</h3>
+                               <p>Intermediate</p>
+                            </div>
+                    </article>
+                 </div>
+             </diV>
+                 </div>
+             </div>
+             <img class="arrow" src="./image/arrow.png" alt="Arrow Icon" 
+             onclick="location.href='./#experience'"/>
+      </section>
+
+      <section id="projects">
+          <p class="section-text-p1">Browse My Recent</p>
+          <h1 class="title">Projects</h1>
+          <div class="exprience-detail-container">
+                 <div class="about-container">
+                   <div class="details-container color-container">
+                         <div class="aricle-container">
+                           <img src="./image/Rps.png" alt="Project 1" class="project-img">
+                         </div>
+                         <h2 class="exprience-subtitle project-title">Rock-Paper-Scissors Game</h2>
+                         <div class="btn-container">
+                              
+                              <!--<button class="btn btn-color-2 project-btn" 
+                              onclick="location.href='./RPS/index.html'">
+                                 Live Demo
+                              </button>-->
+               <button class="btn btn-color-2 project-btn"><a href="./RPS/index.html" target="_blank">Live Demo</a></button>
+                         </div>
+                   </div>
+                   
+               <div class="details-container color-container">
+                  <div class="aricle-container">
+                    <img src="./image/Blog pp.png" alt="Project 3" class="project-img">
+                  </div>
+                  <h2 class="exprience-subtitle project-title">Blog Website</h2>
+                  <div class="btn-container">
+                      
+                      <!--<button class="btn btn-color-2 project-btn" 
+                       onclick="location.href='http://localhost/My%20Portfolio/Blog/blog.php'" target="_blank">
+                          Live Demo
+                       </button>-->
+               <button class="btn btn-color-2 project-btn"><a href="http://localhost/My%20Portfolio/Blog/blog.php" target="_blank">Live Demo</a></button>         
+                  </div>
+            </div>
+          </div> 
+         </div>
+          <img class="arrow" src="" alt="Arrow Icon" 
+          onclick="location.href='./#projects'"/>
+      </section>
+
+      <section id="contact">
+            <p class="section-text-p1"> Get in Touch  </p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                  <div class="contact-info-container">
+                      <img src="./image/email.png" alt="Email Icon " class="icon contact-icon email-icon"/>
+                      <p>
+                        <a href="mailto: firaolkeno27@gmail.com">firaolkeno27@gmail.com</a>
+                     </p>
+                  </div>
+            </div>
+      </section>
+       <footer>
+          <nav class="footer-links">
+             <div class="nav-links-container">
+               <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experiance</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+             </div>
+          </nav>
+          <p class="footer-p">Copyright &#169; 2024 Firaol Keno. All Rights Reseved.</p>
+      </footer>
+  <script src="script.js"></script>             
+ </body>
+</html> 
